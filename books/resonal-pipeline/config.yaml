@@ -1,4 +1,4 @@
-title: "RESONALの1曲ができるまで（仮）"
+title: "RESONALの1曲ができるまで — Claude Code で音楽ユニットを回すワークフロー"
 summary: "AIボーカル「彩瀬??」と僕の2人（1人と1AI）で回している音楽ユニットRESONALの、企画からリリースまでの制作ワークフローをまとめた本です。Claude Code の Skill とスクリプトで各工程をどう動かしているか、MV制作やマスタリングの自動化も含めて、実際のコードとともに紹介します。"
 topics: ["claudecode", "ai", "remotion", "ffmpeg", "音楽"]
 published: false

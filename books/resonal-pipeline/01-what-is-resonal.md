@@ -14,7 +14,7 @@ RESONAL は、AIボーカルの **彩瀬??**（あやせ）と、プロデュー
 
 https://www.youtube.com/watch?v=4tyUotQb180
 
-【2本目の埋め込み: apoto が選ぶ】
+https://www.youtube.com/watch?v=tdTpDM-9I0o
 
 ## 始めたきっかけ
 
