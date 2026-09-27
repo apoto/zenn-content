@@ -19,15 +19,6 @@ MV の見せ方は、「スタイル」と「軸」の2段階で決めていま�
 
 カタログに載っているスタイルは次のとおりです。
 
-![Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す](/images/resonal-pipeline/style-stutter-step.jpg)
-*Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す*
-
-![Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む](/images/resonal-pipeline/style-made-you-look.jpg)
-*Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む*
-
-![Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面](/images/resonal-pipeline/style-heat-shock.jpg)
-*Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面*
-
 | # | スタイル | 見た目 | 向いている曲 |
 |---|---|---|---|
 | 1 | demonlord | 白い極太明朝を散らし、色収差と残像を重ねる | 攻撃的で速い曲（DnB など） |
@@ -43,6 +34,19 @@ MV の見せ方は、「スタイル」と「軸」の2段階で決めていま�
 | 11 | gothic3d | 血赤のローポリ3D世界をカメラが飛ぶ | ダークで荘厳な曲 |
 | 12 | nightcity | 平面の背景を小節頭で切り替え、静止画のキャラを重ねる | 夜・都市のクールな曲 |
 | 13 | tableau | 静止の立ち絵と、切り替わる背景動画、縦書きの明朝 | 世界そのものが主題の曲 |
+
+実際の MV では、次のように見た目が変わります。
+
+
+![Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す](/images/resonal-pipeline/style-stutter-step.jpg)
+*Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す*
+
+![Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む](/images/resonal-pipeline/style-made-you-look.jpg)
+*Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む*
+
+![Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面](/images/resonal-pipeline/style-heat-shock.jpg)
+*Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面*
+
 
 ## 選定表：カタログ全件を1行ずつ評価する
 
