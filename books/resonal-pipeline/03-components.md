@@ -15,7 +15,8 @@ RESONAL の制作は、次の4つの層で動いています。
 | スクリプト | 決まった処理と検査 | シェル・Node.js・Python |
 | 自動実行 | 時間になったら動く処理 | launchd |
 
-【画像: 4層の構成図】
+![制作を動かしている4つの層](/images/resonal-pipeline/layers.png)
+*制作を動かしている4つの層*
 
 AI（Claude Code）は、`CLAUDE.md` のルールに従い、Skill の手順を読みながら、スクリプトを呼び出して作業します。人がいない時間の処理は、launchd が決まった時刻に実行します。
 

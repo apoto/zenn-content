@@ -10,6 +10,9 @@ title: "MV② 歌詞同期 — LYRICS.md と Whisper の秒を合わせる"
 
 `06_build_lyrics.py` では、画面に出す語と、それを出す秒を、別々のところから取っています。
 
+![Stutter Step のサビ。Whisper が語ごとの秒を測り、「タ・タ・タップ」も0.16秒刻みで分かれる](/images/resonal-pipeline/whisper-timing.jpg)
+*Stutter Step のサビ。Whisper が語ごとの秒を測り、「タ・タ・タップ」も0.16秒刻みで分かれる*
+
 | 取るもの | 取り出し元 | 理由 |
 |---|---|---|
 | 語（歌詞の文字） | `LYRICS.md` | Whisper の認識結果には空耳が混じるため |

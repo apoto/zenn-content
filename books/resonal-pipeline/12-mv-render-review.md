@@ -114,6 +114,9 @@ done
 
 配信と並行して、AI がセルフ検品をします。その準備をするのが `mv_selfcheck.sh` で、曲フォルダの `selfcheck/` に次のものを書き出します。
 
+![Heat Shock のコンタクトシート。曲全体から24点を等間隔に抜き出して並べる](/images/resonal-pipeline/selfcheck-heat-shock.jpg)
+*Heat Shock のコンタクトシート。曲全体から24点を等間隔に抜き出して並べる*
+
 | 出力 | 中身 | 何を観るためか |
 |---|---|---|
 | `contact-sheet.jpg` | 本編を24等分した点のタイル | 全体の流れ・接続・落差 |

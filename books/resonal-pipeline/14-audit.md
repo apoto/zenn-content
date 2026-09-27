@@ -8,6 +8,9 @@ title: "記録と見張り — 完了は機械が判定する"
 
 第13章の `release.sh` は、リリースの6項目だけを行います。しかし、1曲を終えるには、ほかにも作業があります。例えば、SoundCloud 用のジャケット画像、YouTube の歌詞字幕、引き継ぎメモなどです。
 
+![ある曲のリリース工程を閉じたときの Claude Code の画面（当時は26項目）](/images/resonal-pipeline/finalize-exit0.jpg)
+*ある曲のリリース工程を閉じたときの Claude Code の画面（当時は26項目）*
+
 これらを含めて「完了」を判定するのが `finalize.sh` です。
 
 ```bash

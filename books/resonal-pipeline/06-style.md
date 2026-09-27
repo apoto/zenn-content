@@ -19,6 +19,15 @@ MV の見せ方は、「スタイル」と「軸」の2段階で決めていま�
 
 カタログに載っているスタイルは次のとおりです。
 
+![Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す](/images/resonal-pipeline/style-stutter-step.jpg)
+*Stutter Step（negaposi）。極太ゴシックの歌詞を、場面ごとに違う置き方で出す*
+
+![Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む](/images/resonal-pipeline/style-made-you-look.jpg)
+*Made You Look（sugarpop）。ピンクの縁取りの丸い文字が弾む*
+
+![Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面](/images/resonal-pipeline/style-heat-shock.jpg)
+*Heat Shock（snaptype）。明朝の縦書きと、場面ごとに切り替わる面*
+
 | # | スタイル | 見た目 | 向いている曲 |
 |---|---|---|---|
 | 1 | demonlord | 白い極太明朝を散らし、色収差と残像を重ねる | 攻撃的で速い曲（DnB など） |
