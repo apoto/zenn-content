@@ -212,7 +212,7 @@ Cotton Overkill では、先ほどのレビューを受けて、彩瀬??の基�
 
 ### 3D：React Three Fiber
 
-3D の世界をカメラで飛ぶ MV は、React Three Fiber（React で three.js を書くライブラリ）と `@remotion/three` で作っています。公開済みの曲では Poppy Requiem がこの方式です。
+3D の世界をカメラで飛ぶ MV は、React Three Fiber（React で three.js を書くライブラリ）と `@remotion/three` で作っています。公開済みの曲では Poppy Requiem と Dive Reflex がこの方式です。Dive Reflex では、入り江の水面と水中を3Dで作り、2Dで描いた彩瀬??をその中に置いています。
 
 3D の作り方は Skill `render-3d-look` にまとめていて、主な規則は次のとおりです。
 

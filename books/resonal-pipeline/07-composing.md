@@ -28,10 +28,10 @@ Suno とカバー画像の生成に使う文章は、曲フォルダに4つの�
 | `suno_exclude.txt` | 避けたい要素をカンマ区切りで並べたもの |
 | `cover_prompt.txt` | カバー画像を生成するためのプロンプト |
 
-例えば Stutter Step の `suno_exclude.txt` は次のとおりです。
+例えば Dive Reflex の `suno_exclude.txt` は次のとおりです。
 
-```text:260905_Stutter Step/suno_exclude.txt
-intro, outro, instrumental outro, long instrumental tail, fade out, shouting, screaming, raspy belting, gang chants, mature adult woman voice, sultry breathy alto, Western pop diva, cold deadpan vocal timbre, saccharine baby voice, breakbeat, amen break, sad, ballad, acoustic, rock guitar
+```text:260925_Dive Reflex/suno_exclude.txt
+intro, outro, shouting, screaming, raspy belting, gang chants, male vocal, rap, spoken word, neurofunk, distorted reese, amen break, ballad, chill, lo-fi, saccharine, sultry breathy alto, orchestral
 ```
 
 4つのテキストは、Slack の曲ごとのスレッドにも1つずつ送ります。僕がスマホから中身を確認でき、必要ならそのまま Suno に貼り付けられるようにするためです。

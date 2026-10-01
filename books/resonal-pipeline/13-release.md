@@ -139,43 +139,53 @@ none ──upload(private)──▶ uploaded ──link──▶ linked ──pu
 
 `release.json` は、1曲のリリースに関する記録です。曲フォルダごとに1つあります。
 
-公開済みの Stutter Step を例にすると、次のようになっています（配信サービスの ID は伏せています）。
+公開済みの Rerun Season（何年ぶりかに帰省したら、街は再放送みたいに変わっていなくて、変わっていたのは自分だけだった、という曲）を例にすると、次のようになっています（配信サービスの ID などは伏せています）。まず、YouTube の本編の記録です。
 
-```json:260905_Stutter Step/release.json
-  "mv_approved_at": "2026-09-07",
+```json:260909_Rerun Season/release.json
   "youtube": {
-    "video_id": "4tyUotQb180",
-    "url": "https://www.youtube.com/watch?v=4tyUotQb180",
-    "publish_at": "2026-09-21T10:00:00.000Z",
+    "video_id": "_jEE-ct5L8Y",
+    "url": "https://www.youtube.com/watch?v=_jEE-ct5L8Y",
+    "publish_at": "2026-09-28T10:00:00.000Z",
     "privacy": "scheduled",
-    "uploaded_at": "2026-09-07T14:47:49.013Z"
+    "uploaded_at": "2026-09-19T05:28:49.744Z",
+    "captions": {
+      "track_id": "（伏せ字）",
+      "lang": "ja",
+      "lines": 51,
+      "uploaded_at": "2026-09-28T07:30:18.647Z"
+    }
   },
+```
+
+配信サービスへの入稿の記録は次のとおりです。
+
+```json:260909_Rerun Season/release.json
   "distrokid": {
-    "submitted_at": "2026-09-07",
-    "expected_live": "2026-09-21",
+    "submitted_at": "2026-09-19",
+    "expected_live": "2026-09-28",
     "assets_ready": true,
     "album_uuid": "（伏せ字）"
   },
 ```
 
-ミュージックビデオの承認、YouTube へのアップロード、配信サービスへの入稿が、同じ9月7日に済んでいます。公開は2週間後の9月21日19:00（UTC の10:00）です。
+ミュージックビデオを承認した9月19日に、YouTube へのアップロードと配信サービスへの入稿まで済ませています。公開は9日後の9月28日 19:00（UTC の10:00）で、配信サービスの公開日も同じ日にそろえています。
 
 ショートの記録は次のとおりです。
 
-```json:260905_Stutter Step/release.json
+```json:260909_Rerun Season/release.json
   "youtube_shorts": [
     {
-      "video_id": "AJlju0zlKeY",
-      "url": "https://www.youtube.com/watch?v=AJlju0zlKeY",
+      "video_id": "qn-X9UoZIog",
+      "url": "https://www.youtube.com/watch?v=qn-X9UoZIog",
       "publish_at": null,
-      "linked_at": "2026-09-21T10:10:52.356Z",
-      "published_at": "2026-09-21T10:10:56.177Z",
-      "commented_at": "2026-09-21T10:10:57.567Z"
+      "linked_at": "2026-09-28T10:10:57.505Z",
+      "published_at": "2026-09-28T10:11:07.853Z",
+      "commented_at": "2026-09-28T10:11:10.203Z"
     }
   ]
 ```
 
-本編の公開から10分後に、リンク・公開・コメントの3つが数秒のうちに記録されています。
+本編の公開から約11分後に、本編へのリンク、公開、コメントが十数秒のうちに続けて記録されています。公開日当日の自動処理が、予定どおりに動いた記録です。
 
 なお、`youtube.privacy` は公開後も `"scheduled"` のまま更新されません。そのため、本編が公開されたかどうかは、この値ではなく、YouTube の API で実際の状態を確かめています（第14章）。
 
