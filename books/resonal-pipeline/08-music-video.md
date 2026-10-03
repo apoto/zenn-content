@@ -24,7 +24,6 @@ MV の工程では、AI が次のコマンドを1回実行します。
 前提として、曲フォルダにマスター `<Title>.wav`（第7章）、`LYRICS.md`（第5章）、横長の `cover.png`（第6章）が必要です。初回は `templates/mv/` を `projects/<slug>/` にコピーして `npm install` し、2回目以降は同じプロジェクトを使います。
 
 ![make_mv.sh の中の流れ](/images/resonal-pipeline/mv-pipeline.png)
-*make_mv.sh の中の流れ。どこかで失敗したらそこで止まる*
 *make_mv.sh の中で走る工程。番号はスクリプトの名前で、実行の順番とは一致しない。*
 
 中では、次の順にスクリプトが走ります。
