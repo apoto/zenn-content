@@ -21,7 +21,7 @@ MV の工程では、AI が次のコマンドを1回実行します。
 ./tools/make_mv.sh "songs/<曲フォルダ>"
 ```
 
-前提として、曲フォルダにマスター `<Title>.wav`（第7章）、`LYRICS.md`（第5章）、横長の `cover.png`（第6章）が必要です。初回は `templates/mv/` を `projects/<slug>/` にコピーして `npm install` し、2回目以降は同じプロジェクトを使います。
+前提として、曲フォルダにマスター `<Title>.wav`（「マスタリング」の章）、`LYRICS.md`（「作詞」の章）、横長の `cover.png`（「作曲」の章）が必要です。初回は `templates/mv/` を `projects/<slug>/` にコピーして `npm install` し、2回目以降は同じプロジェクトを使います。
 
 ![make_mv.sh の中の流れ](/images/resonal-pipeline/mv-pipeline.png)
 *make_mv.sh の中で走る工程。番号はスクリプトの名前で、実行の順番とは一致しない。*
@@ -193,7 +193,7 @@ Kling は画像や文章から動画を作るサービスで、公式の MCP サ
 
 公開版に入っている見た目の型（style）は、`src/styles/neonnoir.tsx` の1つです。色はファイル冒頭の `PZ` で塗り替えられ、フォントは Google Fonts（OFL）を読み込んでいます。コードは、カメラ・合成・クレジットを担う `src/engine/` と、フォント・配色・字幕・装飾を担う `src/styles/` に分けています。
 
-新しい見た目を増やしたい方は、`src/styles/<name>.tsx` に型を書いて `registry.ts` に登録し、`workflow.config.json` の `mv.look` をその名前にすれば切り替わります。RESONAL で実際に使っている見た目の型については、第11章で紹介します。
+新しい見た目を増やしたい方は、`src/styles/<name>.tsx` に型を書いて `registry.ts` に登録し、`workflow.config.json` の `mv.look` をその名前にすれば切り替わります。RESONAL で実際に使っている見た目の型については、「RESONAL の場合」の章で紹介します。
 
 ## まとめ
 

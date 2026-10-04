@@ -4,6 +4,7 @@ topics: ["claudecode", "ai", "remotion", "ffmpeg", "音楽"]
 published: false
 price: 0
 chapters:
+  - 00-start-here
   - 00-introduction
   - 01-what-is-resonal
   - 02-overview
