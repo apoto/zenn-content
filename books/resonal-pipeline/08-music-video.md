@@ -24,7 +24,7 @@ MVの工程では、AIが次のコマンドを1回実行します。
 前提として、曲フォルダにマスター `<Title>.wav`（「マスタリング」の章）、`LYRICS.md`（「作詞」の章）、横長の `cover.png`（「作曲」の章）が必要です。初回は `templates/mv/` を `projects/<slug>/` にコピーして `npm install` し、2回目以降は同じプロジェクトを使います。
 
 ![make_mv.shの中の流れ](/images/resonal-pipeline/mv-pipeline.png)
-*make_mv.shの中で走る工程。番号はスクリプトの名前で、実行の順番とは一致しない。*
+*make_mv.shの中で走る工程。番号の順に実行する。*
 
 中では、次の順にスクリプトが走ります。
 
@@ -32,10 +32,10 @@ MVの工程では、AIが次のコマンドを1回実行します。
 |---|---|---|
 | 01 | `01_transcribe.sh` | Whisperで歌を文字起こしし、語ごとの秒を取る |
 | 02 | `02_tempo.sh` | テンポ（拍の位置）と、音の強さ `energy.json` を測る |
-| 03 | `03b` / `03c` / `03d` | 背景・前景（キャラ）・背景ループ動画を用意する |
-| 06 | `06_build_lyrics.py` | `LYRICS.md` の文言とWhisperの秒から `lyrics.json` を作る |
-| 04 | `04_render.sh` | 本編・ショート・サムネイルを書き出す |
-| 07 | `07_verify.sh` | 書き出した動画が壊れていないかを検査する |
+| 03 | `03a` / `03b` / `03c` | 背景・前景（キャラ）・背景ループ動画を用意する |
+| 04 | `04_build_lyrics.py` | `LYRICS.md` の文言とWhisperの秒から `lyrics.json` を作る |
+| 05 | `05_render.sh` | 本編・ショート・サムネイルを書き出す |
+| 06 | `06_verify.sh` | 書き出した動画が壊れていないかを検査する |
 
 各段は、成果物ができたことを確かめてから次へ進みます。途中で止まったら、AIが表示された `[NG]` の行を直して同じコマンドを再実行します。文字起こしが済んでいれば01は飛ばします。文字起こしとレンダーには数十分かかることがあるので、AIは長い処理をバックグラウンドで走らせて待ちます。
 
@@ -59,21 +59,21 @@ Whisperはモデルの取得に失敗しても終了コード0を返すことが
 
 ## 03背景・前景・背景ループ動画を用意する
 
-`03b_prep_cover.sh` は、カバー画像から本編用（16:9）とショート用（9:16）の背景を作ります。前景（キャラクター）は、`profile/images/character.png` があるかどうかで作り方を変えています。
+`03a_prep_cover.sh` は、カバー画像から本編用（16:9）とショート用（9:16）の背景を作ります。前景（キャラクター）は、`profile/images/character.png` があるかどうかで作り方を変えています。
 
 ```bash:tools/make_mv.sh
-"$T/03b_prep_cover.sh" "$SONG/cover.png"
+"$T/03a_prep_cover.sh" "$SONG/cover.png"
 CHAR="$REPO/profile/images/character.png"
 # 立ち絵があればキャラを前景に、無ければカバーから被写体を切り抜く
-if [ -s "$CHAR" ]; then "$T/03c_cutout_fg.sh" "$CHAR" --place
-else "$T/03c_cutout_fg.sh" "$SONG/cover.png"; fi
+if [ -s "$CHAR" ]; then "$T/03b_cutout_fg.sh" "$CHAR" --place
+else "$T/03b_cutout_fg.sh" "$SONG/cover.png"; fi
 ```
 
-立ち絵があれば、画面の高さの90% に収めて下端中央に置きます。無ければ、カバー画像から被写体を切り抜き、背景と同じ切り取り方で置きます。切り抜きには、画像の背景を取り除くPythonのライブラリrembgを、アニメ絵向けの `isnet-anime` モデルで使っています。背景と前景を分けておくと、キャラの後ろに光を置いたり、キャラの手前に文字を通したりできます。曲フォルダに `bg_loop.mp4` があれば、`03d_prep_loop.sh` が背景用のループ動画も用意します（後述）。
+立ち絵があれば、画面の高さの90% に収めて下端中央に置きます。無ければ、カバー画像から被写体を切り抜き、背景と同じ切り取り方で置きます。切り抜きには、画像の背景を取り除くPythonのライブラリrembgを、アニメ絵向けの `isnet-anime` モデルで使っています。背景と前景を分けておくと、キャラの後ろに光を置いたり、キャラの手前に文字を通したりできます。曲フォルダに `bg_loop.mp4` があれば、`03c_prep_loop.sh` が背景用のループ動画も用意します（後述）。
 
-## 06歌詞同期 — 文言はLYRICS.md、秒はWhisperから取る
+## 04歌詞同期 — 文言はLYRICS.md、秒はWhisperから取る
 
-`06_build_lyrics.py` は、画面に出す文言を `LYRICS.md` の「## 歌詞（表示用）」から、それを出す秒をWhisperの出力から取っています。文言にWhisperの聞き取り結果を使わないのは、空耳が混じるためです。
+`04_build_lyrics.py` は、画面に出す文言を `LYRICS.md` の「## 歌詞（表示用）」から、それを出す秒をWhisperの出力から取っています。文言にWhisperの聞き取り結果を使わないのは、空耳が混じるためです。
 
 ![](/images/resonal-pipeline/whisper-timing.jpg)
 *RESONALの曲でWhisperが測った語ごとの秒。「タ・タ・タップ」も0.16秒刻みで分かれる。*
@@ -100,7 +100,7 @@ Whisperは、歌の無い部分や聞き取りにくい部分で、実際には�
 
 各行の開始の秒は、Whisperの語の開始秒（オンセット）のうち、0.7秒以内で最も近いものに合わせ直します。
 
-```python:templates/mv/tools/06_build_lyrics.py
+```python:templates/mv/tools/04_build_lyrics.py
         t = ph["t"]
         i = bisect.bisect_left(onsets, t)
         cands = [onsets[j] for j in (i - 1, i, i + 1) if 0 <= j < len(onsets)]
@@ -120,7 +120,7 @@ RESONALでこの処理を足す前は、Whisperの歌のまとまり（セグメ
 
 字幕は折り返さない設定なので、長い行を大きな文字で置くと画面の外にはみ出します。そこで、行ごとに文字の大きさの上限を計算しています。
 
-```python:templates/mv/tools/06_build_lyrics.py
+```python:templates/mv/tools/04_build_lyrics.py
 def max_size(text: str) -> int:
     """本編と縦ショートの両方で画面幅の SAFE に収まる最大 px（縦は SHORT_SCALE 倍で描かれる）。"""
     w = max(0.5, visual_width(text))
@@ -129,13 +129,13 @@ def max_size(text: str) -> int:
 
 行の幅は、全角を1.0、半角を0.55、空白を0.35として足し合わせて見積もります。そこから、本編（幅1920px）とショート（幅1080px）の両方で、画面幅の86% に収まる大きさを出します。上限が64pxを下回る行は、`LYRICS.md` で行を割るよう警告します。
 
-## 04レンダーと07検査
+## 05レンダーと06検査
 
-`04_render.sh` は、最初に設定ファイルからタイトル・クレジット・見た目の型を読み込みます。次に、マスター `<Title>.wav` をMVのプロジェクトへコピーし、歌詞データに書いた曲の長さと実際の音源の長さが0.5秒を超えて違えば止まります。
+`05_render.sh` は、最初に設定ファイルからタイトル・クレジット・見た目の型を読み込みます。次に、マスター `<Title>.wav` をMVのプロジェクトへコピーし、歌詞データに書いた曲の長さと実際の音源の長さが0.5秒を超えて違えば止まります。
 
 そのうえで、ショート → 本編 → サムネイルの順に書き出し、曲フォルダに `<Title>.mp4`・`<Title> (Short).mp4`・`thumbnail.jpg` として置きます。レンダラは素材が欠けていても終了コード0を返すことがあるので、書き出すたびに、ファイルがあることと尺をffprobeで確かめます。
 
-`07_verify.sh` は、書き出した動画を最後までデコードして、エラーが無いかを確かめます。RESONALで、ディスクの空きが足りなくなったときに、レンダラがエラーを出さずに一部が壊れたmp4を書き出し、サムネイルや数枚の静止画では気付けなかったことがあったためです。あわせて、`credits` が画面に出るようになっているかも確かめます。`providers.notify` を `slack` にしていれば、最後にSlackにも送ります。
+`06_verify.sh` は、書き出した動画を最後までデコードして、エラーが無いかを確かめます。RESONALで、ディスクの空きが足りなくなったときに、レンダラがエラーを出さずに一部が壊れたmp4を書き出し、サムネイルや数枚の静止画では気付けなかったことがあったためです。あわせて、`credits` が画面に出るようになっているかも確かめます。`providers.notify` を `slack` にしていれば、最後にSlackにも送ります。
 
 ## 振り付けは、音の強さから自動で決める
 
