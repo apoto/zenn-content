@@ -9,7 +9,9 @@ title: "はじめ方とセットアップ"
 使い始めるときは、Claude Code か Codex を開いて、次のように頼みます。
 
 ```text
-https://github.com/apoto/resonal-workflow をクローンしてセットアップして
+https://github.com/apoto/resonal-workflow
+このリンク先のワークフローを使って、AI と一緒に曲を作りたいです。
+手元に取り込んで、セットアップから始めてください。分からないことは質問してください。
 ```
 
 すると AI がリポジトリをクローンし、中の `CLAUDE.md`（Codex の場合は `AGENTS.md`）を読みます。`CLAUDE.md` の最初の節には、次のように書いています。
