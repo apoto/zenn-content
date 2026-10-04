@@ -193,7 +193,7 @@ Klingは画像や文章から動画を作るサービスで、公式のMCPサー
 
 公開版に入っている見た目の型（style）は、`src/styles/neonnoir.tsx` の1つです。色はファイル冒頭の `PZ` で塗り替えられ、フォントはGoogle Fonts（OFL）を読み込んでいます。コードは、カメラ・合成・クレジットを担う `src/engine/` と、フォント・配色・字幕・装飾を担う `src/styles/` に分けています。
 
-新しい見た目を増やしたい方は、`src/styles/<name>.tsx` に型を書いて `registry.ts` に登録し、`workflow.config.json` の `mv.look` をその名前にすれば切り替わります。RESONALで実際に使っている見た目の型については、「RESONALの場合」の章で紹介します。
+新しい見た目を増やしたい方は、`src/styles/<name>.tsx` に型を書いて `registry.ts` に登録し、`workflow.config.json` の `mv.look` をその名前にすれば切り替わります。RESONALで使ってきた13の見た目の型も、リポジトリの `styles/` に実験的に入れています。「MVの見せ方を選びたい」と話しかけると、AIがskill `mv-styles` で選ぶ手伝いをします。詳しくは「RESONALの場合」の章で紹介します。
 
 ## まとめ
 
