@@ -31,6 +31,9 @@ RESONALの曲とミュージックビデオは、[公式サイト](https://offic
 
 ブラウザで使うふつうのチャットでは、パソコンの中のファイルを扱えないため、このワークフローは動きません。僕は、VS Codeの中でClaude Codeを起動して作業し、外にいるときはスマホのClaudeアプリから確認と指示をしています。
 
+![VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が僕の指示、下がAIの返事](/images/resonal-pipeline/workspace-claude-code.jpg)
+*VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が僕の指示、下がAIの返事*
+
 ## 始め方
 
 Claude CodeかCodexを開いて、次の文章をそのままコピーして貼り付け、送信してください。
