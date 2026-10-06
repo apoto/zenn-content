@@ -110,9 +110,9 @@ AIは案を出すとき、この表の直近の曲と比べて、テンポ・ジ
 ```js:engine/steps.js
     check(c) {
       const md = c.read(c.file('BRIEF.md'));
-      if (!md) return ai('BRIEF.md が無い', 'コンセプト案を2〜3つ BRIEF.md に書く（各案は「### 案1 …」の見出し）');
+      if (!md) return ai('BRIEF.md が無い', 'コンセプト案を2〜3つ BRIEF.md に書く（各案は「### 案A …」の見出し）');
       const plans = md.split('\n').filter((l) => /^#{2,4}\s.*案/.test(l) && !/選んだ案/.test(l));
-      if (plans.length < 2) return ai(`案が ${plans.length} つ`, 'BRIEF.md に案を2つ以上並べる（「### 案1 …」「### 案2 …」）');
+      if (plans.length < 2) return ai(`案が ${plans.length} つ`, 'BRIEF.md に案を2つ以上並べる（「### 案A …」「### 案B …」）');
       const chosen = section(md, (l) => /選んだ案/.test(l));
       if (!chosen || !chosen.length) {
         return human('どの案にするか未決定', '案を人に見せて選んでもらい、BRIEF.md の「## 選んだ案」に結果と理由を書く');
