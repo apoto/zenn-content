@@ -4,17 +4,18 @@ topics: ["claudecode", "ai", "remotion", "ffmpeg", "音楽"]
 published: false
 price: 0
 chapters:
-  - 00-start-here
-  - 00-introduction
-  - 01-what-is-resonal
-  - 02-overview
-  - 03-setup
-  - 04-planning
-  - 05-lyrics
-  - 06-composing
-  - 07-mastering
-  - 08-music-video
-  - 09-release-prep
-  - 10-my-role
-  - 11-resonal
-  - 12-closing
+  - start-here
+  - introduction
+  - what-is-resonal
+  - overview
+  - setup
+  - planning
+  - lyrics
+  - composing
+  - mastering
+  - music-video
+  - style-gallery
+  - release-prep
+  - my-role
+  - resonal
+  - closing
