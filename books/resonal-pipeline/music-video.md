@@ -51,8 +51,8 @@ MVの工程では、AIがテンプレートでMVを1本作ります。歌を文�
 
 RESONALでは、よく使う軸の組み合わせに名前を付けて「スタイル」と呼んでいます。「白い図形と極太ゴシックの白黒反転」「3Dの世界をカメラで飛ぶ」などで、2026年10月時点で13あります。
 
-![Dive Reflex（gothic3d）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる](/images/resonal-pipeline/style-dive-reflex.jpg)
-*Dive Reflex（gothic3d）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる*
+![Dive Reflex（lowpoly-corridor）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる](/images/resonal-pipeline/style-dive-reflex.jpg)
+*Dive Reflex（lowpoly-corridor）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる*
 
 13のスタイルと既定の型の見た目は、次の「スタイル図鑑」の章に画像つきで並べています。
 
