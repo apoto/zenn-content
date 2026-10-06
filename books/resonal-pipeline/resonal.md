@@ -12,9 +12,6 @@ RESONALでは、新曲のMVに入るとき、13のスタイルを1つずつ評�
 
 RESONALの環境では、企画からリリースまでのチェックの項目が31あり、1曲を終えるときは、全部が通るまで仕上げを繰り返します。
 
-![ある曲のリリース工程を閉じたときのClaude Codeの画面（当時は26項目）](/images/resonal-pipeline/finalize-exit0.jpg)
-*ある曲のリリース工程を閉じたときのClaude Codeの画面（当時は26項目）*
-
 MVを書き出したあとは、決まった位置のコマを並べた一覧を作り、AIが観て問題が無いかを確かめます。
 
 ![Heat Shockのコンタクトシート。曲全体から24点を等間隔に抜き出して並べる](/images/resonal-pipeline/selfcheck-heat-shock.jpg)
