@@ -49,10 +49,13 @@ https://github.com/apoto/resonal-workflow
 | Q5 | ユニット名とクレジットの表記 | 「MOONLIT LANE／Vocal: ミナト／Produced by自分の名前」 | `workflow.config.json` |
 | Q6 | 音の大きさ（`streaming` か `loud`） | 迷ったら `streaming` | `workflow.config.json` |
 | Q7 | 使う外部サービス（音源・画像・動画素材・通知） | 「Suno」「自分で用意する」「使わない」 | `workflow.config.json` |
+| Q8 | どこにリリースするか（複数選べる） | 「YouTubeだけ」「YouTubeと配信サービス」「リリースしない」 | `workflow.config.json` |
 
 Q3は、キャラクターがいるかどうかを最初に聞き、いる場合だけ名前や見た目を続けて聞きます。キャラクターがいない、声だけの曲にもできます。立ち絵の画像がある場合は、その置き場所を伝えると `profile/images/character.png` に置かれ、カバー画像の生成やMVで見た目を揃えるのに使われます。
 
 Q6の音の大きさは、マスタリングの目標値になります。`streaming` は配信サービス向けの控えめな音量（-14 LUFS）で、`loud` は音圧を強めにした設定（-9.5 LUFS）です。LUFSなどの単位は「マスタリング」の章で説明します。
+
+Q8では、YouTube・配信サービス（Spotify・Apple Musicなど）・それ以外（SoundCloudなど）から、リリース先を選びます。作って手元に置くだけなら「リリースしない」も選べます。リリース準備の工程では、選んだ先の分だけ素材と文面を作ります。配信サービスに出す場合は、MVのクレジットとは別に、配信で使う作詞・作曲の名義も聞きます。
 
 ## profile/ とworkflow.config.jsonができる
 
@@ -60,9 +63,9 @@ Q6の音の大きさは、マスタリングの目標値になります。`strea
 
 - `profile/sound.md`・`world.md`・`character.md`・`lyrics.md`：Q1〜Q4の答え
 - `profile/ledger.md`：作った曲の一覧（最初は空の表）
-- `workflow.config.json`：ユニット名・クレジット・音量の目標・使う外部サービス
+- `workflow.config.json`：ユニット名・クレジット・音量の目標・使う外部サービス・リリース先
 
-書いたあとは、`node engine/config.js providers` で設定ファイルが読めること（JSONの書き間違いや選べない値が無いこと）を確かめます。そのうえで、AIがファイルの中身を利用者に見せ、OKが出るまで直してから確定します。
+書いたあとは、`node engine/config.js providers` と `node engine/config.js release` で設定ファイルが読めること（JSONの書き間違いや選べない値が無いこと）を確かめます。そのうえで、AIがファイルの中身を利用者に見せ、OKが出るまで直してから確定します。
 
 キャラクターがいる場合は `CLAUDE.md` の人格の節も書かれ、以降の会話ではAIがそのキャラクターの口調で話すようになります。RESONALで彩瀬??と会話しながら制作しているのと同じ形です。
 
