@@ -24,10 +24,10 @@ RESONALの曲とミュージックビデオは、[公式サイト](https://offic
 ### 必ず必要なもの
 
 - Macのパソコン（Windowsでは動作を確認していません）
-- ClaudeかChatGPTのアカウント（パソコンの中で作業できる、Claude CodeかCodexを使います。どちらか1つで大丈夫です）
-  - [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
-  - [Codex](https://github.com/openai/codex)
-- 音源を作る手段（おすすめはSunoです。ほかのサービスや、自分で作った音源も使えます）
+- [Claude](https://claude.ai/)か[ChatGPT](https://chatgpt.com/)のアカウント
+    - パソコンの中で作業できる、Claude CodeかCodexを使います。どちらか1つで大丈夫です。
+- 音源を作る手段
+    - おすすめは[Suno](https://suno.com/ja)です。ほかのサービスや、自分で作った音源も使えます。
 
 ### あるとより良いもの
 
@@ -68,9 +68,9 @@ https://github.com/apoto/resonal-workflow
 新曲を作りたい
 ```
 
-あとはAIが順番に作業を進めます。人の出番になるとAIは手を止めて、何をしてほしいかを教えてくれます。
+あとはAIが順番に作業を進めます。人が判断する場所に来ると、AIは手を止めて、何をしてほしいかを教えてくれます。
 
-| 人の出番 | やること |
+| 人が判断する場所 | やること |
 |---|---|
 | 企画 | AIが出した2〜3個の案から、1つ選ぶ |
 | 作曲 | AIが用意した文章をSunoなどに貼って曲を生成し、気に入った音源をAIに渡す |
