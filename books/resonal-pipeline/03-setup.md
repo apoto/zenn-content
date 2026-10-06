@@ -44,7 +44,7 @@ https://github.com/apoto/resonal-workflow
 |---|---|---|---|
 | Q1 | 作りたい音楽の傾向（ジャンル・ムード・テンポ感） | 「夜の街のシティポップ、ゆったり」「速くて激しい音ゲー曲」「ピアノのバラード」 | `profile/sound.md` |
 | Q2 | テーマ・世界観 | 「都会の孤独と小さな救い」「放課後の青春」 | `profile/world.md` |
-| Q3 | 歌い手・キャラクター（名前・一人称・性格・話し方・見た目・立ち絵の有無） | 「ミナト・私」「銀髪ボブ・黒いパーカー」 | `profile/character.md` |
+| Q3 | 歌い手・キャラクター（名前・一人称・性格・話し方・見た目・立ち絵の有無）と、歌声のイメージ | 「ミナト・私」「銀髪ボブ・黒いパーカー」「若い女性の澄んだ声」 | `profile/character.md`・`profile/sound.md` |
 | Q4 | 歌詞の言語と作風のこだわり（任意） | 「日本語、サビに英語を少し」「使いたくない言葉がある」 | `profile/lyrics.md` |
 | Q5 | ユニット名とクレジットの表記 | 「MOONLIT LANE／Vocal: ミナト／Produced by自分の名前」 | `workflow.config.json` |
 | Q6 | 音の大きさ（`streaming` か `loud`） | 迷ったら `streaming` | `workflow.config.json` |
