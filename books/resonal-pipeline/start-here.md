@@ -2,7 +2,7 @@
 title: "はじめに — まずはここだけ読んでください"
 ---
 
-この本は、AIと一緒に曲を作るためのワークフロー（作業の手順をまとめたもの）のマニュアルです。最初から全部読まなくても大丈夫です。この章の「始め方」にあるプロンプトをAIに貼り付ければ、あとはAIとの会話で進められます。
+この本は、AIと一緒に曲を作るためのワークフロー（作業の手順をまとめたもの）のマニュアルです。最初から全部読まなくても大丈夫です。この章の[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#%E5%A7%8B%E3%82%81%E6%96%B9)にあるプロンプトをAIに貼り付ければ、あとはAIとの会話で進められます。
 
 ワークフローの元になったのは、AI音楽ユニット **RESONAL** で使っている制作の手順です。[生成AIなんでも展示会Vol.6](https://www.genai-expo.com/)に展示したところ、「動画はどうやって作っているのか」「マスタリングも自動なのか」といった質問を多くいただき、誰でも使える形に整えて公開しました。
 
@@ -33,7 +33,7 @@ AIで曲やミュージックビデオを作ろうとして、途中で止まっ
 - Macのパソコン（Windowsでは動作を確認していません）
 - [Claude](https://claude.ai/)のアカウント
     - パソコンの中で作業できる、Claude Codeを使います。
-    - ChatGPT（Codex）など、ほかのAIエージェントでも使えるかもしれません。動作は確認していないので、「始め方」の頼み方で始めてください。
+    - ChatGPT（Codex）など、ほかのAIエージェントでも使えるかもしれません。動作は確認していないので、[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#claude-code%E4%BB%A5%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の頼み方で始めてください。
 - 音源を作る手段
     - おすすめは[Suno](https://suno.com/ja)です。ほかのサービスや、自分で作った音源も使えます。
 
@@ -45,7 +45,7 @@ AIで曲やミュージックビデオを作ろうとして、途中で止まっ
 | 動画生成ツール | Kling MCP | MVの動画素材をAIが作る | 画像素材中心でMVを作る |
 | 通知ツール | Slack | できたMVをスマホで受け取る | パソコンで確認する |
 
-各種ツールの有無や利用サービスは、セットアップでAIに聞かれて選びます。詳しくは「A. セットアップ」の章を見てください。
+各種ツールの有無や利用サービスは、セットアップでAIに聞かれて選びます。詳しくは[「A. セットアップ」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/setup#%E4%BD%BF%E3%81%86%E5%A4%96%E9%83%A8%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AF%E9%81%B8%E3%81%B9%E3%82%8B)の章を見てください。
 
 ほかに必要なツールは、始めたあとにAIが確認して、足りなければ入れ方を案内してくれます（入れる前に確認を取ります）。
 
@@ -133,13 +133,13 @@ ClaudeやChatGPTなどのAIツールを、すでに触っている方を想定�
 
 | 知りたいこと | 章 |
 |---|---|
-| RESONALについて | 「RESONALとは」 |
-| 全体の流れ | 「全体像」 |
-| 準備で聞かれること・使うサービスの選び方 | 「A. セットアップ」 |
-| 各作業の中身 | 「B-1. 企画」〜「B-6. リリース準備」の各章 |
-| あなたが何をするか | 「人間の仕事」 |
-| RESONALで実際に使っている環境 | 「RESONALの場合」 |
-| MVの見せ方の見本 | 「付録：スタイル図鑑」 |
+| RESONALについて | [「RESONALとは」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/what-is-resonal) |
+| 全体の流れ | [「全体像」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/overview) |
+| 準備で聞かれること・使うサービスの選び方 | [「A. セットアップ」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/setup) |
+| 各作業の中身 | [「B-1. 企画」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/planning)〜[「B-6. リリース準備」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/release-prep)の各章 |
+| あなたが何をするか | [「人間の仕事」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/my-role) |
+| RESONALで実際に使っている環境 | [「RESONALの場合」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/resonal) |
+| MVの見せ方の見本 | [「付録：スタイル図鑑」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/style-gallery) |
 
 :::message
 この本の内容は、2026年10月時点のものです。モデルやツールの進化に合わせてワークフローも変えていくので、この本は「v1」として一旦まとめたものです。

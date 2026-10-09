@@ -62,7 +62,7 @@ RESONALでは、よく使う軸の組み合わせに名前を付けて「スタ�
 ![Dive Reflex（lowpoly-corridor）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる](/images/resonal-pipeline/style-dive-reflex.jpg)
 *Dive Reflex（lowpoly-corridor）。夕方の桟橋から潜り、底に仰向けになって、夜の水面に浮かんでくる*
 
-13のスタイルと既定の型の見た目は、巻末の「付録：スタイル図鑑」に画像つきで並べています。
+13のスタイルと既定の型の見た目は、巻末の[「付録：スタイル図鑑」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/style-gallery)に画像つきで並べています。
 
 この13のスタイルの実装も、公開版の `styles/` に入れています。発展途上のまま共有しているので、スタイルごとに手順や作りは揃っていませんが、そのまま使ってもらって構いません。
 

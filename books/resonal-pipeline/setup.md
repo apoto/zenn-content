@@ -6,7 +6,7 @@ title: "A. セットアップ — はじめ方と、質問に答えること"
 
 ## Claude Codeに頼んで始める
 
-使い始めるときは、Claude Codeを開いて、次のように頼みます。ほかのAIエージェントで使う場合の頼み方は、「はじめに」の章に載せています。
+使い始めるときは、Claude Codeを開いて、次のように頼みます。ほかのAIエージェントで使う場合の頼み方は、[「はじめに」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#claude-code%E4%BB%A5%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の章に載せています。
 
 ```text
 https://github.com/apoto/resonal-workflow
