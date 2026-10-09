@@ -2,20 +2,11 @@
 title: "はじめに — まずはここだけ読んでください"
 ---
 
-この本は、AIと一緒に曲を作るためのワークフロー（作業の手順をまとめたもの）のマニュアルです。最初から全部読まなくても大丈夫です。この章の[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#%E5%A7%8B%E3%82%81%E6%96%B9)にあるプロンプトをAIに貼り付ければ、あとはAIとの会話で進められます。
+この本は、AIと一緒に曲を作るためのワークフロー（作業の手順をまとめたもの）のマニュアルです。最初から全部読まなくても大丈夫です。この章を読んで、[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#%E5%A7%8B%E3%82%81%E6%96%B9)にあるプロンプトをAIに貼り付ければ、あとはAIとの会話で進められます。
 
-ワークフローの元になったのは、AI音楽ユニット **RESONAL** で使っている制作の手順です。[生成AIなんでも展示会Vol.6](https://www.genai-expo.com/)に展示したところ、「動画はどうやって作っているのか」「マスタリングも自動なのか」といった質問を多くいただき、誰でも使える形に整えて公開しました。
-
-ワークフロー本体は、GitHubで公開しています。
+ワークフローの元になったのは、AI音楽ユニット **RESONAL** の制作の手順です。ワークフロー本体は、GitHubで公開しています。
 
 @[card](https://github.com/apoto/resonal-workflow)
-
-![展示で掲示したA3の全体フロー図。ChatGPTにキャッチーにしてもらった（数字は展示時点）](/images/resonal-pipeline/exhibit-a3.jpg)
-*展示で掲示したA3の全体フロー図。ChatGPTにキャッチーにしてもらった（数字は展示時点）*
-
-RESONALの曲とミュージックビデオは、[公式サイト](https://official.resonal.workers.dev/)と[YouTube](https://www.youtube.com/@resonal-btf)で公開しています。
-
-@[card](https://note.com/apopopo)
 
 ## できること
 
@@ -41,6 +32,8 @@ AIで曲やミュージックビデオを作ろうとして、途中で止まっ
 - 音源を作る手段
     - おすすめは[Suno](https://suno.com/ja)です。ほかのサービスや、自分で作った音源も使えます。
 
+ブラウザで使うふつうのチャットでは、パソコンの中のファイルを扱えないため、このワークフローは動きません。
+
 ### あるとより良いもの
 
 | あるもの | 推奨サービス | できること | 無いとき |
@@ -53,10 +46,18 @@ AIで曲やミュージックビデオを作ろうとして、途中で止まっ
 
 ほかに必要なツールは、始めたあとにAIが確認して、足りなければ入れ方を案内してくれます（入れる前に確認を取ります）。
 
-ブラウザで使うふつうのチャットでは、パソコンの中のファイルを扱えないため、このワークフローは動きません。私は、VS Codeの中でClaude Codeを起動して作業し、外にいるときはスマホのClaudeアプリから確認と指示をしています。
+## 安心して使うために
 
-![VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事](/images/resonal-pipeline/workspace-claude-code.jpg)
-*VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事*
+このワークフローは、あなたのパソコンの中で動きます。使い方や作った曲、入力した情報が、作者の私（apoto）に送られることはありません。
+
+外とやり取りするのは、あなたが選んだサービスに頼むときです。Sunoや画像・動画の生成サービスには、作りたいものの説明や参照する画像が、Slackを使う場合はできたMVが送られます。AI（Claude Codeなど）とのやり取りは、それぞれのサービスの規約に沿って扱われます。
+
+手元には、次の大事な情報が保存されます。
+
+- Slackを使う場合の接続用のトークン（`.env`）
+- セットアップで答えた名前などの設定（`profile/`・`workflow.config.json`）
+
+これらは最初から、GitHubなどに上がらない設定にしてあります。気をつけてほしいのは、AIにWeb検索や別のツールで調べ物をさせるときです。トークンや個人情報が、検索の文や外部のツールに渡らないようにしてください。トークンは、チャットに貼らずに `.env` に直接書いてください。
 
 ## 始め方
 
@@ -71,6 +72,11 @@ https://github.com/apoto/resonal-workflow
 先頭のリンクが、このワークフローの置き場所です。AIがこのリンクを読み込んで、必要なものを手元に取り込み、準備を始めます。
 
 準備の途中で、AIが作りたい音楽の雰囲気・テーマ・歌い手・歌詞のこだわり・ユニット名・音の大きさ・使うサービス・公開先を、1つずつ質問してきます。分からないものは「あとで決める」と答えれば先に進めます。
+
+参考までに、私はVS Codeの中でClaude Codeを起動して作業し、外にいるときはスマホのClaudeアプリから確認と指示をしています。
+
+![VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事](/images/resonal-pipeline/workspace-claude-code.jpg)
+*VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事*
 
 ### Claude Code以外で使う場合
 
@@ -108,27 +114,6 @@ https://github.com/apoto/resonal-workflow
 | 設定を変えたい（キャラや音楽の雰囲気など） | 「セットアップをやり直したい」 |
 | 自分の歌や楽器を入れたい | 「歌は自分で歌いたい」 |
 
-## 安心して使うために
-
-このワークフローは、あなたのパソコンの中で動きます。使い方や作った曲、入力した情報が、作者の私（apoto）に送られることはありません。
-
-外とやり取りするのは、あなたが選んだサービスに頼むときです。Sunoや画像・動画の生成サービスには、作りたいものの説明や参照する画像が、Slackを使う場合はできたMVが送られます。AI（Claude Codeなど）とのやり取りは、それぞれのサービスの規約に沿って扱われます。
-
-手元には、次の大事な情報が保存されます。
-
-- Slackを使う場合の接続用のトークン（`.env`）
-- セットアップで答えた名前などの設定（`profile/`・`workflow.config.json`）
-
-これらは最初から、GitHubなどに上がらない設定にしてあります。気をつけてほしいのは、AIにWeb検索や別のツールで調べ物をさせるときです。トークンや個人情報が、検索の文や外部のツールに渡らないようにしてください。トークンは、チャットに貼らずに `.env` に直接書いてください。
-
-## このワークフローの考え方
-
-このワークフローでは、初稿まではAIが自動で作りますが、より良いものにブラッシュアップするには人間の確認・判断・指示が要る作り方にしています。
-
-私は、今のAIを使った制作は、あくまで人間のクリエイティブの延長だと考えています。AIは実作業を行うツールで、何を作るか、どこを直すかを決めるのは人間です。この本で紹介する仕組みも、人間を減らすためではなく、人間が判断に集中できるようにするためのものです。
-
-AIの進化によって、いずれ人間の判断すら要らなくなるかもしれません。ただ、少なくとも今の私は、この考え方でワークフローを組み立てています。
-
 ## この本の読み方
 
 ClaudeやChatGPTなどのAIツールを、すでに触っている方を想定しています。音楽制作や動画制作の専門知識は前提にしていません。
@@ -137,11 +122,11 @@ ClaudeやChatGPTなどのAIツールを、すでに触っている方を想定�
 
 | 知りたいこと | 章 |
 |---|---|
-| RESONALについて | [「RESONALとは」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/what-is-resonal) |
+| RESONALと作者について | [「RESONALとは」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/what-is-resonal) |
 | 全体の流れ | [「全体像」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/overview) |
 | 準備で聞かれること・使うサービスの選び方 | [「A. セットアップ」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/setup) |
 | 各作業の中身 | [「B-1. 企画」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/planning)〜[「B-6. リリース準備」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/release-prep)の各章 |
-| あなたが何をするか | [「人間の仕事」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/my-role) |
+| あなたが何をするか・このワークフローの考え方 | [「人間の仕事」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/my-role) |
 | RESONALで実際に使っている環境 | [「RESONALの場合」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/resonal) |
 | MVの見せ方の見本 | [「付録：スタイル図鑑」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/style-gallery) |
 
