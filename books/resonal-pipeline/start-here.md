@@ -4,6 +4,8 @@ title: "はじめに — まずはここだけ読んでください"
 
 この本は、AIと一緒に曲を作るためのワークフロー（作業の手順をまとめたもの）のマニュアルです。最初から全部読まなくても大丈夫です。この章を読んで、[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#%E5%A7%8B%E3%82%81%E6%96%B9)にあるプロンプトをAIに貼り付ければ、あとはAIとの会話で進められます。
 
+English version is [here](https://zenn.dev/apoto/books/resonal-pipeline-en).
+
 ワークフローの元になったのは、AI音楽ユニット **RESONAL** の制作の手順です。ワークフロー本体は、GitHubで公開しています。
 
 @[card](https://github.com/apoto/resonal-workflow)
