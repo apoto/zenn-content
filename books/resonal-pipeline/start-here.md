@@ -75,8 +75,8 @@ https://github.com/apoto/resonal-workflow
 
 参考までに、私はVS Codeの中でClaude Codeを起動して作業し、外にいるときはスマホのClaudeアプリから確認と指示をしています。
 
-![VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事](/images/resonal-pipeline/workspace-claude-code.jpg)
-*VS CodeのClaude Codeで、ミュージックビデオの直しを伝えたところ。上が私の指示、下がAIの返事*
+![VS CodeのClaude Codeで、MVの直しを伝えたところ。上が私の指示、下がAIの返事](/images/resonal-pipeline/workspace-claude-code.jpg)
+*VS CodeのClaude Codeで、MVの直しを伝えたところ。上が私の指示、下がAIの返事*
 
 ### Claude Code以外で使う場合
 
