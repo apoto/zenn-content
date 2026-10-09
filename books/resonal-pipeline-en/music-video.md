@@ -1,5 +1,5 @@
 ---
-title: "B-5. Music Video (MV) — Start from the Template, Then Reshape It Freely"
+title: "B-5. Music Video (MV) — Start from the Template, Then Reshape It"
 ---
 
 This chapter explains how the music video (MV) is made. The public version includes an MV template, so you can make one video with it right away. But what I want to share is less what's inside the template and more how to think when you reshape it into the form you like. You say what you want in words, and the AI translates it into 18 axes and a dictionary of effects. This approach works for any kind of video you make.
