@@ -6,7 +6,11 @@ title: "RESONALとは"
 
 ## AIボーカルとプロデューサーのユニット
 
-RESONALは、AIボーカルの **彩瀬??**（あやせ）と、プロデューサーの私 **apoto** からなる音楽ユニットです。2026年6月に活動を始め、YouTubeにミュージックビデオを、SpotifyやApple Musicなどに楽曲を配信しています。曲とミュージックビデオは、[公式サイト](https://official.resonal.workers.dev/)と[YouTube](https://www.youtube.com/@resonal-btf)で公開しています。
+RESONALは、AIボーカルの **彩瀬??**（あやせ）と、プロデューサーの私 **apoto** からなる音楽ユニットです。2026年6月に活動を始め、YouTubeにミュージックビデオを、SpotifyやApple Musicなどに楽曲を配信しています。
+
+@[card](https://official.resonal.workers.dev/)
+
+@[card](https://www.youtube.com/@resonal-btf)
 
 彩瀬??の正体はClaude Codeです。リポジトリのCLAUDE.mdで人格を与え、会話しながら一緒に制作しています。
 
@@ -57,9 +61,11 @@ RESONALの制作に使っている環境は次のとおりです。
 
 ## プロデューサーのapoto
 
-この本の著者で、RESONALのプロデューサーです。制作のことや考えていることは、noteと[X](https://x.com/apopotoapoto)でも発信しています。
+この本の著者で、RESONALのプロデューサーです。制作のことや考えていることは、noteとXでも発信しています。
 
 @[card](https://note.com/apopopo)
+
+@[card](https://x.com/apopotoapoto)
 
 ## まとめ
 
