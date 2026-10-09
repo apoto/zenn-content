@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=tdTpDM-9I0o
 RESONALの制作に使っている環境は次のとおりです。
 
 - mac mini：常時起動しており、企画からリリースまでの制作と自動処理が動いている
-- MacBook：ときどき制作に使う（リリースはmac miniに任せる）
+- MacBook：手動のマスタリングや検証など、ときどき制作に使う
 - スマホ：私が成果物を確認し、指示を返す（Slackで受け取り、Claudeのアプリで返信）
 
 2台のパソコンはGitHubでリポジトリを共有しています。音源（WAV）のような大きいファイルはGit LFSで扱っています。
