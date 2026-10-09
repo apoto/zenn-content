@@ -37,8 +37,7 @@ https://www.youtube.com/watch?v=IjU-iixxmxU
 
 Recently, I also made a video that mixes 3D with watercolor-style 2D. The song and MV will be released soon.
 
-![Scenes from an MV that mixes 3D with watercolor-style 2D (coming soon)](/images/resonal-pipeline/recent-3d-watercolor.jpg)
-*Scenes from an MV that mixes 3D with watercolor-style 2D (coming soon)*
+https://x.com/apopotoapoto/status/2106767076514034148
 
 ## What isn't working well yet
 

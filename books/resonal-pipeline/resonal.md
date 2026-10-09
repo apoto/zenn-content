@@ -37,8 +37,7 @@ https://www.youtube.com/watch?v=IjU-iixxmxU
 
 最近は、3Dと水彩画タッチの2Dを掛け合わせた映像も作りました。この曲とMVは、近日公開・配信予定です。
 
-![3Dと水彩画タッチの2Dを掛け合わせたMVの場面（近日公開）](/images/resonal-pipeline/recent-3d-watercolor.jpg)
-*3Dと水彩画タッチの2Dを掛け合わせたMVの場面（近日公開）*
+https://x.com/apopotoapoto/status/2106767076514034148
 
 ## まだうまくいっていないこと
 
