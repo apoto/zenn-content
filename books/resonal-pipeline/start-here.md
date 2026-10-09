@@ -36,9 +36,9 @@ ClaudeやChatGPTなどのAIツールを、すでに触っている方を想定�
 | 全体の流れ | [「全体像」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/overview) |
 | 準備で聞かれること・使うサービスの選び方 | [「A. セットアップ」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/setup) |
 | 各作業の中身 | [「B-1. 企画」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/planning)〜[「B-6. リリース準備」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/release-prep)の各章 |
+| MVの見せ方の見本 | [「B-5 補足. スタイル図鑑」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/style-gallery) |
 | あなたが何をするか・このワークフローの考え方 | [「人間の仕事」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/my-role) |
 | RESONALで実際に使っている環境 | [「RESONALの場合」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/resonal) |
-| MVの見せ方の見本 | [「付録：スタイル図鑑」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/style-gallery) |
 
 :::message
 この本と公開版のワークフローは、2026年10月時点の「v1」です。
