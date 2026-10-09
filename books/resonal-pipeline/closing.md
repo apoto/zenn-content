@@ -40,4 +40,4 @@ https://github.com/apoto/resonal-workflow
 
 https://www.youtube.com/@resonal-btf
 
-質問や感想は、X（@apopotoapoto）のDMなどでお気軽にどうぞ。
+質問や感想、要望は、X（[@apopotoapoto](https://x.com/apopotoapoto)）でお気軽にどうぞ。
