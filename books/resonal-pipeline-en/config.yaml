@@ -1,7 +1,7 @@
 title: "How a RESONAL Song Gets Made — A Workflow for Running a Music Unit with Claude Code"
 summary: "RESONAL is a music unit run by two of us: the AI vocalist 彩瀬?? and me (one human, one AI). I turned our production workflow into something anyone can use. This book shows how to make a song by talking with an AI — from planning, lyrics, composing and mastering to the music video and release prep. 日本語版：https://zenn.dev/apoto/books/resonal-pipeline"
 topics: ["claudecode", "ai", "remotion", "ffmpeg", "music"]
-published: false
+published: true
 price: 0
 chapters:
   - start-here
