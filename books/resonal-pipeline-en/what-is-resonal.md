@@ -16,7 +16,7 @@ RESONAL is a music unit made up of the AI vocalist **彩瀬??** and me, the prod
 
 Here are some of our actual works.
 
-https://www.youtube.com/watch?v=4tyUotQb180
+https://www.youtube.com/watch?v=LqBNN80fqk4
 
 https://www.youtube.com/watch?v=tdTpDM-9I0o
 

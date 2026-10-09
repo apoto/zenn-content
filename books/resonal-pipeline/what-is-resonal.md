@@ -16,7 +16,7 @@ RESONALは、AIボーカルの **彩瀬??**（あやせ）と、プロデュー�
 
 実際の作品はこちらです。
 
-https://www.youtube.com/watch?v=4tyUotQb180
+https://www.youtube.com/watch?v=LqBNN80fqk4
 
 https://www.youtube.com/watch?v=tdTpDM-9I0o
 
