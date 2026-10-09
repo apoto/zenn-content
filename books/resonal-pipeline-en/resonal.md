@@ -25,6 +25,21 @@ While handing off long automated jobs, there were several times when a job ran t
 
 So now I don't count a job as a success just because it reports "done." I check the result itself before calling it complete. This idea is also in the public version's instructions for the AI.
 
+## How I make MVs these days (as of October 2026)
+
+Since Claude Opus 5.5 came out, I've found it very strong at motion graphics and 3D modeling. So my recent MVs include experiments with these kinds of visuals.
+
+I still use the overall flow of the workflow as before. For the MV part, though, rather than following the public version's axes and looks, I'm exploring new visuals by going back and forth with Claude directly.
+
+For example, for Dive Reflex, I had Claude build a 3D body of water. I moved a camera across the surface and underwater, filmed scenes, and used them in the video.
+
+https://www.youtube.com/watch?v=IjU-iixxmxU
+
+Recently, I also made a video that mixes 3D with watercolor-style 2D. The song and MV will be released soon.
+
+![Scenes from an MV that mixes 3D with watercolor-style 2D (coming soon)](/images/resonal-pipeline/recent-3d-watercolor.jpg)
+*Scenes from an MV that mixes 3D with watercolor-style 2D (coming soon)*
+
 ## What isn't working well yet
 
 - MVs aren't finished in one try: The first video the AI produces often isn't good enough to publish as is. Review rounds run from about 5 for some songs to about 20 for others
@@ -33,4 +48,4 @@ So now I don't count a job as a success just because it reports "done." I check 
 
 ## Summary
 
-In the RESONAL environment, on top of the public version, I use a stricter way to choose how the MV looks, plus check items and a nightly audit. I check "it ran" and "it did what I meant" separately, but some things, like the number of MV review rounds, still aren't working well.
+In the RESONAL environment, on top of the public version, I use a stricter way to choose how the MV looks, plus check items and a nightly audit. For recent MVs, I'm also trying new visuals such as 3D by working with Claude directly. I check "it ran" and "it did what I meant" separately, but some things, like the number of MV review rounds, still aren't working well.
