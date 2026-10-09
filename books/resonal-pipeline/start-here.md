@@ -6,6 +6,10 @@ title: "はじめに — まずはここだけ読んでください"
 
 ワークフローの元になったのは、AI音楽ユニット **RESONAL** で使っている制作の手順です。[生成AIなんでも展示会Vol.6](https://www.genai-expo.com/)に展示したところ、「動画はどうやって作っているのか」「マスタリングも自動なのか」といった質問を多くいただき、誰でも使える形に整えて公開しました。
 
+ワークフロー本体は、GitHubで公開しています。
+
+@[card](https://github.com/apoto/resonal-workflow)
+
 ![展示で掲示したA3の全体フロー図。ChatGPTにキャッチーにしてもらった（数字は展示時点）](/images/resonal-pipeline/exhibit-a3.jpg)
 *展示で掲示したA3の全体フロー図。ChatGPTにキャッチーにしてもらった（数字は展示時点）*
 
