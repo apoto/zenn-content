@@ -39,12 +39,6 @@ Recently, I also made a video that mixes 3D with watercolor-style 2D. The song a
 
 https://x.com/apopotoapoto/status/2106767076514034148
 
-## What isn't working well yet
-
-- MVs aren't finished in one try: The first video the AI produces often isn't good enough to publish as is. Review rounds run from about 5 for some songs to about 20 for others
-- Improvements to the system don't reach songs in progress: When I improve the MV template, it doesn't carry over to songs I've already started
-- Some rules only exist as instructions to the AI: There are rules that nothing automatically enforces
-
 ## Summary
 
-In the RESONAL environment, on top of the public version, I use a stricter way to choose how the MV looks, plus check items and a nightly audit. For recent MVs, I'm also trying new visuals such as 3D by working with Claude directly. I check "it ran" and "it did what I meant" separately, but some things, like the number of MV review rounds, still aren't working well.
+In the RESONAL environment, on top of the public version, I use a stricter way to choose how the MV looks, plus check items and a nightly audit. For recent MVs, I'm also trying new visuals such as 3D by working with Claude directly. I also check "it ran" and "it did what I meant" separately.
