@@ -24,12 +24,11 @@ The workflow itself is free. What costs money is the monthly fee of the services
 
 | What | Monthly (approx.) |
 |---|---|
-| Claude (Pro, includes Claude Code) | about $20 |
+| Claude Pro or ChatGPT Plus (one of them; for Claude Code or Codex) | about $20 |
 | Suno (Pro, commercial use allowed) | about $10 |
-| (Optional) image generation: ChatGPT (Codex) | about $20 |
 | (Optional) video generation: Kling | from about $10 |
 
-With only the required services, you can start at about $30 a month.
+With only the required services, you can start at about $30 a month. If you choose ChatGPT Plus, cover image generation (Codex) is included. If you choose Claude Pro, prepare images yourself or add ChatGPT Plus.
 
 If you try to make an MV with video generation AI alone, even a 3-minute song needs dozens of 5-second clips, and with retakes your credits run out quickly. In this workflow, MVs are built mainly from images, so you can finish one without video generation.
 
@@ -41,7 +40,7 @@ It depends on the rules of the services you used. With audio generation services
 
 ## Q. Can I use it with ChatGPT (Codex)?
 
-It might work, but I've only tested it with Claude Code. If you use Codex or another agent, first have that agent adjust the workflow into a form it can use easily, then start. How to ask is in the ["Introduction"](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code) chapter.
+Yes. I've confirmed that it works with Codex too, from setup to rendering the MV. Only MV rendering needs to run outside Codex's safety sandbox. Details are in the ["Introduction"](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-it-with-codex) chapter.
 
 ## Q. How do I stop using it?
 

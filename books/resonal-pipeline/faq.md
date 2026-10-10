@@ -24,12 +24,11 @@ title: "よくある質問（Q&A）"
 
 | 使うもの | 月額の目安 |
 |---|---|
-| Claude（Pro。Claude Code を含む） | 約20ドル |
+| Claude Pro か ChatGPT Plus（どちらか1つ。Claude Code か Codex を使う） | 約20ドル |
 | Suno（Pro。商用利用できる） | 約10ドル |
-| （任意）画像生成：ChatGPT（Codex） | 約20ドル |
 | （任意）動画生成：Kling | 約10ドル〜 |
 
-必ず使うものだけなら、月に約30ドルから始められます。
+必ず使うものだけなら、月に約30ドルから始められます。ChatGPT Plusを選ぶと、カバー画像の生成（Codex）もその中でできます。Claude Proを選んだ場合は、画像を自分で用意するか、ChatGPT Plusも足します。
 
 動画生成AIだけでMVを作ろうとすると、3分の曲でも5秒の動画が数十本要り、作り直しも含めるとクレジットがすぐに足りなくなります。このワークフローのMVは画像を中心に組むので、動画生成を使わなくても1本仕上がります。
 
@@ -41,7 +40,7 @@ title: "よくある質問（Q&A）"
 
 ## Q. ChatGPT（Codex）でも使えますか？
 
-使えるかもしれませんが、動作を確認しているのはClaude Codeだけです。Codexなどほかのエージェントで使う場合は、最初にそのエージェントが使いやすい形に整えてもらってから始めてください。頼み方は[「はじめに」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#claude-code%E4%BB%A5%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の章に載せています。
+使えます。Codexでも、セットアップからMVの書き出しまで動くことを確かめました。MVの書き出しだけは、Codexの安全のための囲いの外で動かす必要があります。詳しくは[「はじめに」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#codex%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の章に載せています。
 
 ## Q. 使うのをやめたいときは、どうすればいいですか？
 

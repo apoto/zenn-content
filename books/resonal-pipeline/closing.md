@@ -14,13 +14,13 @@ AIが初稿を作り、人間が確認して判断し、指示を出して良く
 
 ## 試してみたい方へ
 
-公開版のワークフローはGitHubに置いています。Claude Codeを開いて、次のようにURLを貼って頼むだけで始められます。ほかのAIエージェントで使う場合の頼み方は、[「はじめに」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#claude-code%E4%BB%A5%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の章に載せています。
+公開版のワークフローはGitHubに置いています。Claude CodeかCodexを開いて、次のようにURLを貼って頼むだけで始められます。ほかのAIエージェントで使う場合の頼み方は、[「はじめに」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#%E3%81%BB%E3%81%8B%E3%81%AEai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の章に載せています。
 
 ```
 https://github.com/apoto/resonal-workflow
 このリンク先のワークフローを使って、AI と一緒に曲を作りたいです。
 手元に取り込んで、セットアップから始めてください。分からないことは質問してください。
-パソコンのファイルを扱えない環境の場合は、Claude Code の始め方を案内してください。
+パソコンのファイルを扱えない環境の場合は、Claude Code か Codex の始め方を案内してください。
 ```
 
 あとは対話で、作りたい音楽の傾向や世界観、キャラクター、使うサービスを聞かれます。セットアップが終わったら「新曲を作りたい」と話しかけると、1曲目が始まります。

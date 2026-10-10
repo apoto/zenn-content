@@ -14,13 +14,13 @@ The AI makes the first draft, and people check it, decide, and give direction to
 
 ## If you'd like to try it
 
-The public version of the workflow is on GitHub. Just open Claude Code, paste the URL, and ask like this to get started. How to ask when using another AI agent is in the ["Introduction"](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code) chapter.
+The public version of the workflow is on GitHub. Just open Claude Code or Codex, paste the URL, and ask like this to get started. How to ask when using another AI agent is in the ["Introduction"](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-another-ai-agent) chapter.
 
 ```
 https://github.com/apoto/resonal-workflow
 I want to make songs together with AI using the workflow at this link.
 Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
-If you can't work with files on my computer, tell me how to get started with Claude Code instead.
+If you can't work with files on my computer, tell me how to get started with Claude Code or Codex instead.
 ```
 
 After that, it will ask you in conversation about the kind of music you want to make, its world, your character, and the services you'll use. When setup is done, say "I want to make a new song," and your first song begins.

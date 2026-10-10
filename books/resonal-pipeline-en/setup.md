@@ -4,15 +4,15 @@ title: "A. Setup — Getting Started and Answering Questions"
 
 This chapter explains how you start using the public version of the workflow.
 
-## Start by asking Claude Code
+## Start by asking Claude Code or Codex
 
-To get started, open Claude Code and ask like this. How to ask when you use another AI agent is in the [Introduction](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code) chapter.
+To get started, open Claude Code or Codex and ask like this. How to ask when you use another AI agent is in the [Introduction](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-another-ai-agent) chapter.
 
 ```text
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
 Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
-If you can't work with files on my computer, tell me how to get started with Claude Code instead.
+If you can't work with files on my computer, tell me how to get started with Claude Code or Codex instead.
 ```
 
 The AI then brings the repository onto your computer and starts the setup. First it checks whether you have the tools you need. If anything is missing, it shows you how to install it and asks "OK to install?" one at a time. It never installs anything before you agree.
@@ -69,4 +69,4 @@ I want to use my own tool for image generation. How should I set it up?
 
 ## Summary
 
-The public workflow starts when you give Claude Code the repository URL and ask it to do the setup. The AI asks one question at a time and writes settings files from your answers. It shows recommended external services, but you can swap in other services or do things by hand.
+The public workflow starts when you give Claude Code or Codex the repository URL and ask it to do the setup. The AI asks one question at a time and writes settings files from your answers. It shows recommended external services, but you can swap in other services or do things by hand.

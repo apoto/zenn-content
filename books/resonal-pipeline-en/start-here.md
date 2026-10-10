@@ -70,9 +70,9 @@ This book and the public workflow are "v1" as of October 2026.
 
 - A Mac computer (I haven't tested it on Windows)
     - Apple silicon (M1 or later) is recommended. On older Macs, timing the lyrics and rendering the MV take much longer. Plan for about 10 GB of free disk space.
-- A [Claude](https://claude.ai/) account
-    - You'll use Claude Code, which can work with the files on your computer.
-    - Other AI agents, like ChatGPT (Codex), might also work. I haven't tested them, so start with the request in [Using an Agent Other Than Claude Code](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code).
+- A [Claude](https://claude.ai/) or [ChatGPT](https://chatgpt.com/) account
+    - You'll use Claude Code or Codex, which can work with the files on your computer. I've tested both.
+    - If you use Codex, also read [Using it with Codex](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-it-with-codex).
 - A way to make audio
     - I recommend [Suno](https://suno.com). You can also use other services, or audio you made yourself.
 
@@ -105,13 +105,13 @@ These are set up from the start so they won't be uploaded to GitHub or anywhere 
 
 ## Getting started
 
-Open Claude Code, copy the text below as is, paste it, and send it.
+Open Claude Code or Codex, copy the text below as is, paste it, and send it.
 
 ```
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
 Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
-If you can't work with files on my computer, tell me how to get started with Claude Code instead.
+If you can't work with files on my computer, tell me how to get started with Claude Code or Codex instead.
 ```
 
 The link at the top is where this workflow lives. The AI reads the link, brings what it needs onto your computer, and starts the setup.
@@ -120,15 +120,19 @@ During setup, the AI asks you one question at a time: the mood of the music you 
 
 For reference, I run Claude Code inside VS Code to work, and when I'm out, I check things and give instructions from the Claude app on my phone.
 
-### Using an agent other than Claude Code
+### Using it with Codex
 
-I've only tested it with Claude Code. If you use another agent like Codex, first ask it to reshape the workflow into a form that's easy for it to use, and then start.
+I've confirmed that it works with Codex too, from setup to rendering the MV. One thing: MV rendering stops inside Codex's safety sandbox, because the rendering tool launches a browser. If rendering stops, ask Codex to run it outside the sandbox (approve it if Codex asks for permission).
+
+### Using another AI agent
+
+I've tested it with Claude Code and Codex. If you use another agent, first ask it to reshape the workflow into a form that's easy for it to use, and then start.
 
 ```
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
-This workflow is written for Claude Code. After you bring it onto my computer, first reshape it into a form that's easy for you to use, and then start the setup. Ask me if anything is unclear.
-If you can't work with files on my computer, tell me how to get started with Claude Code instead.
+This workflow is written for Claude Code and Codex. After you bring it onto my computer, first reshape it into a form that's easy for you to use, and then start the setup. Ask me if anything is unclear.
+If you can't work with files on my computer, tell me how to get started with Claude Code or Codex instead.
 ```
 
 ## Making a song
