@@ -23,7 +23,7 @@ The AI does most of the work. Your part is the decisions and the finishing touch
 - How to split the work between what you leave to AI and what people decide
 - How to tell the AI what to fix when things don't turn out the way you imagined
 
-There's also a one-minute video that walks through the whole flow (in Japanese).
+There's also a two-minute video that walks through the whole flow (in Japanese).
 
 https://x.com/apopotoapoto/status/2108705141176345003
 

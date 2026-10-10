@@ -23,7 +23,7 @@ English version is [here](https://zenn.dev/apoto/books/resonal-pipeline-en).
 - AIに任せるところと、人間が判断するところの分け方
 - 思い通りにならないときの、AIへの直し方の伝え方
 
-1分の解説動画でも、全体の流れを紹介しています。
+2分の解説動画でも、全体の流れを紹介しています。
 
 https://x.com/apopotoapoto/status/2108705141176345003
 
