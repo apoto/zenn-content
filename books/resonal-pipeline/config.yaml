@@ -1,5 +1,5 @@
 title: "RESONALの1曲ができるまで — Claude Code で音楽ユニットを回すワークフロー"
-summary: "AIボーカル「彩瀬??」と私の2人（1人と1AI）で回している音楽ユニットRESONALの制作ワークフローを、誰でも使える形にして公開しました。企画・作詞・作曲・マスタリング・MV・リリース準備まで、AIと会話しながら1曲を作る方法を紹介します。 English version: https://zenn.dev/apoto/books/resonal-pipeline-en"
+summary: "AIと会話しながら、1曲とそのMVを最後まで作るワークフローの本です。\n\n【この本でできること】\n・企画・作詞・作曲・マスタリング・MV・リリース準備まで、AIと会話するだけで1曲を作りきる\n・MVの見せ方を、言葉で伝えるだけで自分好みに作り変える\n・月30ドルほどのサブスクから始められる（動画生成AIなしでもMVが仕上がる）\n\nAIボーカル「彩瀬??」と私の2人（1人と1AI）で回している音楽ユニットRESONALの制作ワークフローを、誰でも使える形にして無料で公開しました。\n\nEnglish version: https://zenn.dev/apoto/books/resonal-pipeline-en"
 topics: ["claudecode", "ai", "remotion", "ffmpeg", "音楽"]
 published: true
 price: 0

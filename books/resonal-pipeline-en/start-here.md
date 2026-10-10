@@ -2,7 +2,7 @@
 title: "Introduction — Please Read This First"
 ---
 
-This book is a manual for a workflow (a written set of steps) for making songs with AI. You don't need to read it all from the start. Read this chapter, paste the prompt from [Getting Started](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#getting-started) into the AI, and you can do the rest by talking with the AI.
+This book is a manual for a workflow (a written set of steps) for making a song and its MV from start to finish, just by talking with AI. You don't need to read it all from the start. Read this chapter, paste the prompt from [Getting Started](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#getting-started) into the AI, and you can do the rest by talking with the AI.
 
 日本語版は[こちら](https://zenn.dev/apoto/books/resonal-pipeline)。
 
@@ -10,11 +10,29 @@ The workflow is based on how the AI music unit **RESONAL** makes its songs. The 
 
 @[card](https://github.com/apoto/resonal-workflow)
 
-## What you can do
+## What you can do with this book
 
-You can work with AI on everything from planning a song to writing lyrics, composing, finishing the sound (mastering), making a music video (MV), and preparing the release.
+- Finish a whole song, from planning, lyrics and composing to finishing the sound (mastering), the music video (MV) and release prep, just by talking with AI
+- Remake the look of your MV the way you like, just by describing it in words
+- Start with about $30 a month in subscriptions (your MV gets finished even without video generation AI)
 
 The AI does most of the work. Your part is the decisions and the finishing touches: choosing ideas, making the audio, approving the MV, and publishing it on YouTube and other places.
+
+## What you'll learn
+
+- How to split the work between what you leave to AI and what people decide
+- How to tell the AI what to fix when things don't turn out the way you imagined
+
+There's also a one-minute video that walks through the whole flow (in Japanese).
+
+https://x.com/apopotoapoto/status/2108705141176345003
+
+## What this book doesn't cover
+
+- Music theory, or detailed techniques for writing lyrics and composing
+- How to use a DAW or video editing software
+- Detailed instructions for each service, such as Suno or Kling
+- How to distribute or monetize your music (it only points you to how to check credits and terms)
 
 ## Who this is for
 
