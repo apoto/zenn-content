@@ -32,7 +32,7 @@ https://x.com/apopotoapoto/status/2108705141176345003
 - Music theory, or detailed techniques for writing lyrics and composing
 - How to use a DAW or video editing software
 - Detailed instructions for each service, such as Suno or Kling
-- How to distribute or monetize your music (it only points you to how to check credits and terms)
+- How to distribute or monetize your music
 
 ## Who this is for
 
