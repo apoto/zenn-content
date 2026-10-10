@@ -20,12 +20,20 @@ I'd be happy if it helps you in some way.
 
 ## Q. How much does it cost?
 
-The workflow itself is free. What costs money are the services you use with it.
+The workflow itself is free. What costs money is the monthly fee of the services you use with it. Rough prices as of October 2026:
 
-- Required: Claude, and a service that makes audio (Suno or similar)
-- Optional, if you want them: image and video generation services
+| What | Monthly (approx.) |
+|---|---|
+| Claude (Pro, includes Claude Code) | about $20 |
+| Suno (Pro, commercial use allowed) | about $10 |
+| (Optional) image generation: ChatGPT (Codex) | about $20 |
+| (Optional) video generation: Kling | from about $10 |
 
-Even without a video generation service, you can make an MV built mostly from images. Prices can change, so it's a good idea to check each service's pricing page before you start.
+With only the required services, you can start at about $30 a month.
+
+If you try to make an MV with video generation AI alone, even a 3-minute song needs dozens of 5-second clips, and with retakes your credits run out quickly. In this workflow, MVs are built mainly from images, so you can finish one without video generation.
+
+Prices can change, so it's a good idea to check each service's pricing page before you start.
 
 ## Q. Can I release or make money from the songs I make?
 
@@ -34,6 +42,10 @@ It depends on the rules of the services you used. With audio generation services
 ## Q. Can I use it with ChatGPT (Codex)?
 
 It might work, but I've only tested it with Claude Code. If you use Codex or another agent, first have that agent adjust the workflow into a form it can use easily, then start. How to ask is in the ["Introduction"](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code) chapter.
+
+## Q. How do I stop using it?
+
+Ask the AI "Clean up what this workflow installed". To delete things yourself, remove the folder you cloned, the dedicated boxes (`~/.venvs/resonal-workflow` and `~/.venvs/rembg`), and the models (`~/.cache/whisper` and `~/.u2net`). Tools such as whisper go into a dedicated box rather than your whole computer, so other tools are not affected.
 
 ## Q. I got an error, or it stopped partway
 

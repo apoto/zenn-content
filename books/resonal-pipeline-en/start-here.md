@@ -51,6 +51,7 @@ This book and the public workflow are "v1" as of October 2026.
 ### Required
 
 - A Mac computer (I haven't tested it on Windows)
+    - Apple silicon (M1 or later) is recommended. On older Macs, timing the lyrics and rendering the MV take much longer. Plan for about 10 GB of free disk space.
 - A [Claude](https://claude.ai/) account
     - You'll use Claude Code, which can work with the files on your computer.
     - Other AI agents, like ChatGPT (Codex), might also work. I haven't tested them, so start with the request in [Using an Agent Other Than Claude Code](https://zenn.dev/apoto/books/resonal-pipeline-en/viewer/start-here#using-an-agent-other-than-claude-code).

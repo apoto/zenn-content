@@ -51,6 +51,7 @@ ClaudeやChatGPTなどのAIツールを、すでに触っている方を想定�
 ### 必ず必要なもの
 
 - Macのパソコン（Windowsでは動作を確認していません）
+    - Apple シリコン（M1 以降）がおすすめです。古い Mac だと、歌詞のタイミング取りや MV の書き出しにかなり時間がかかります。空き容量は 10GB ほど見ておいてください。
 - [Claude](https://claude.ai/)のアカウント
     - パソコンの中で作業できる、Claude Codeを使います。
     - ChatGPT（Codex）など、ほかのAIエージェントでも使えるかもしれません。動作は確認していないので、[「始め方」](https://zenn.dev/apoto/books/resonal-pipeline/viewer/start-here#claude-code%E4%BB%A5%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88)の頼み方で始めてください。
