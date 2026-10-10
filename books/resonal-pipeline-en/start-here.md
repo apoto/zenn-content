@@ -92,6 +92,7 @@ Open Claude Code, copy the text below as is, paste it, and send it.
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
 Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
+If you can't work with files on my computer, tell me how to get started with Claude Code instead.
 ```
 
 The link at the top is where this workflow lives. The AI reads the link, brings what it needs onto your computer, and starts the setup.
@@ -108,6 +109,7 @@ I've only tested it with Claude Code. If you use another agent like Codex, first
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
 This workflow is written for Claude Code. After you bring it onto my computer, first reshape it into a form that's easy for you to use, and then start the setup. Ask me if anything is unclear.
+If you can't work with files on my computer, tell me how to get started with Claude Code instead.
 ```
 
 ## Making a song

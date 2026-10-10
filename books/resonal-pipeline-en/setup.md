@@ -12,6 +12,7 @@ To get started, open Claude Code and ask like this. How to ask when you use anot
 https://github.com/apoto/resonal-workflow
 I want to make songs with AI using the workflow at this link.
 Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
+If you can't work with files on my computer, tell me how to get started with Claude Code instead.
 ```
 
 The AI then brings the repository onto your computer and starts the setup. First it checks whether you have the tools you need. If anything is missing, it shows you how to install it and asks "OK to install?" one at a time. It never installs anything before you agree.

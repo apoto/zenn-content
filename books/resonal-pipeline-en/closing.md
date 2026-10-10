@@ -19,7 +19,8 @@ The public version of the workflow is on GitHub. Just open Claude Code, paste th
 ```
 https://github.com/apoto/resonal-workflow
 I want to make songs together with AI using the workflow at this link.
-Please bring it into my local environment and start with the setup. Ask me if anything is unclear.
+Please bring it onto my computer and start with the setup. Ask me if anything is unclear.
+If you can't work with files on my computer, tell me how to get started with Claude Code instead.
 ```
 
 After that, it will ask you in conversation about the kind of music you want to make, its world, your character, and the services you'll use. When setup is done, say "I want to make a new song," and your first song begins.
